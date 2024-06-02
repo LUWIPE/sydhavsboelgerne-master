@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <clipPath id="clip-Artboard_1">
+      <rect width="500" height="500"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_1" data-name="Artboard – 1" clip-path="url(#clip-Artboard_1)">
+    <g id="Group_43" data-name="Group 43" transform="translate(-63.408 -871.378)">
+      <path id="Icon_fa-solid-microphone-lines" data-name="Icon fa-solid-microphone-lines" d="M62.928,74.164V197.771a74.164,74.164,0,1,0,148.328,0h-61.8a12.361,12.361,0,0,1,0-24.721h61.8V148.328h-61.8a12.361,12.361,0,0,1,0-24.721h61.8V98.885h-61.8a12.361,12.361,0,0,1,0-24.721h61.8a74.164,74.164,0,1,0-148.328,0ZM235.978,185.41v12.361a98.885,98.885,0,1,1-197.771,0v-30.9a18.541,18.541,0,0,0-37.082,0v30.9A136.019,136.019,0,0,0,118.551,332.5v25.957H81.469a18.541,18.541,0,1,0,0,37.082H192.715a18.541,18.541,0,1,0,0-37.082H155.633V332.5A136.019,136.019,0,0,0,273.06,197.771v-30.9a18.541,18.541,0,0,0-37.082,0Z" transform="translate(176.315 923.608)" fill="#1a4272"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <clipPath id="clip-_7">
+      <rect width="500" height="500"/>
+    </clipPath>
+  </defs>
+  <g id="_7" data-name="7" clip-path="url(#clip-_7)">
+    <path id="Icon_ion-md-person" data-name="Icon ion-md-person" d="M193.625,193.625c52.014,0,94.563-42.554,94.563-94.563S245.639,4.5,193.625,4.5,99.063,47.054,99.063,99.063,141.611,193.625,193.625,193.625Zm0,47.281C130.979,240.906,4.5,272.823,4.5,335.469V382.75H382.75V335.469C382.75,272.823,256.271,240.906,193.625,240.906Z" transform="translate(56.375 56.375)" fill="#1a4272"/>
+  </g>
+</svg>

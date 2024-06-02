@@ -1,0 +1,69 @@
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "../node_modules/bootstrap/scss/functions";
+
+// 2. Inkluder eventuelle standard variabel-overskrivelser her
+$link-decoration: none; // Link-decoration sættes til none
+$primary: #1A4272; // Primærfarve defineres
+$secondary: #a6c0c6; // Sekundærfarve defineres
+$quatro: #BDD4FD; // En anden farve defineres
+$nav-link-color: #1A4272; // Farve for navigationslinks sættes
+$grid-breakpoints: ( // Breakpoints for grid-layout defineres
+				xs: 0,
+				smg: 380px,
+				sm: 576px,
+				md: 768px,
+				lg: 992px,
+				xl: 1200px,
+				xxl: 1400px
+);
+$carousel-control-color: #1A4272; // Farve for karuselkontroller defineres
+$carousel-control-icon-width: 3rem; // Bredde for karuselkontrol-ikoner sættes
+
+// 3. Inkluder resten af de påkrævede Bootstrap-stilark
+@import "../node_modules/bootstrap/scss/variables"; // Import af Bootstrap variabler
+@import "../node_modules/bootstrap/scss/variables-dark"; // Import af Bootstrap mørke-tema variabler
+
+// 4. Inkluder eventuelle standard map-overskrivelser her
+$custom-colors: ( // Definer egne farver
+				"mainblue": #1A4272,
+);
+
+// Sammenføj de egne farver med Bootstrap-temafarver
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+// Importér Bootstrap-komponenter
+@import "bootstrapComponents";
+
+// 5. Her kan du anvende styling...
+
+// Stil for fuldskærms-modal
+.modal-fullscreen {
+	width: 100vw; // Bredden sættes til 100% af viewportens bredde
+	height: 100vh; // Højden sættes til 100% af viewportens højde
+	max-width: none; // Maksimumsbredde fjernes
+}
+
+// Stil for videoer
+.video {
+	width: 100%; // Bredden sættes til 100% af forælderens bredde
+	height: auto; // Højden justeres automatisk for at bevare aspektforholdet
+}
+
+// Stil for thumbnail-container
+.thumbnail-container {
+	display: flex; // Containeren anvender flexbox layout
+	flex-wrap: wrap; // Elementerne wraps, hvis de ikke kan være på samme række
+}
+
+// Stil for thumbnail
+.thumbnail {
+	margin: 10px; // Afstand mellem thumbnails
+	cursor: pointer; // Cursor ændres til en hånd for at angive interaktivitet
+}
+
+// Stil for thumbnail-billeder
+.thumbnail img {
+	width: 100%; // Bredden sættes til 100% af forælderens bredde
+	height: auto; // Højden justeres automatisk for at bevare aspektforholdet
+}
+
